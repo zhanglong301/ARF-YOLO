@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Training outputs
+runs/
+wandb/
+
+# Datasets (large files, download separately)
+datasets/
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

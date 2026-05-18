@@ -1,0 +1,28 @@
+# VisDrone2019-DET Dataset Configuration
+# https://github.com/VisDrone/VisDrone-Dataset
+
+path: datasets/visdrone  # dataset root dir
+train: images/train      # train images (relative to 'path')
+val: images/val          # val images
+test: images/test        # test images (optional)
+
+# Classes (10 categories)
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
+
+# Dataset statistics
+# Train: 6,471 images
+# Val:   548 images
+# Test:  1,610 images
+# Total annotations: ~343k instances
+# Average objects per image: ~53
+# Small objects (<32x32 px): >80% of all instances

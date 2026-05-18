@@ -1,0 +1,18 @@
+# UAVDT Dataset Configuration
+# https://sites.google.com/view/grli-uavdt
+
+path: datasets/uavdt  # dataset root dir
+train: images/train   # train images (relative to 'path')
+val: images/val       # val images
+
+# Classes (3 categories)
+names:
+  0: car
+  1: truck
+  2: bus
+
+# Dataset statistics
+# Train: ~24k frames
+# Val: ~16k frames
+# Captured from UAV at low altitude
+# Primarily vehicle detection in urban traffic scenes
