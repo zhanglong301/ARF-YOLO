@@ -103,8 +103,8 @@ python detect.py --weights runs/train/arf_yolo_visdrone/weights/best.pt --source
 @article{arfyolo2025,
   title={ARF-YOLO: Attention-Guided Adaptive Resolution-Aware Feature Learning for UAV Remote Sensing Object Detection},
   author={},
-  journal={Journal of King Saud University - Computer and Information Sciences},
-  year={2025}
+  journal={},
+  year={2026}
 }
 ```
 
